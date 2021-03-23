@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CompatWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/DarkWindowBG</item>
+
+        <item name="colorPrimary">@color/DarkPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/DarkPrimaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/DarkPrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/DarkSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/DarkSecondaryColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+</resources>

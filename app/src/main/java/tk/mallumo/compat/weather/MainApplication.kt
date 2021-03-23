@@ -1,0 +1,17 @@
+package tk.mallumo.compat.weather
+
+import android.app.Application
+
+val app get() = MainApplication.instance
+
+class MainApplication : Application() {
+
+    companion object {
+        lateinit var instance: MainApplication
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        instance = this
+    }
+}
